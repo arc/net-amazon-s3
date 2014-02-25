@@ -12,7 +12,7 @@ use URI::QueryParam;
 my $METADATA_PREFIX      = 'x-amz-meta-';
 my $AMAZON_HEADER_PREFIX = 'x-amz-';
 
-enum 'HTTPMethod' => qw(DELETE GET HEAD PUT);
+enum 'HTTPMethod' => [qw(DELETE GET HEAD PUT)];
 
 has 's3'     => ( is => 'ro', isa => 'Net::Amazon::S3', required => 1 );
 has 'method' => ( is => 'ro', isa => 'HTTPMethod',      required => 1 );
