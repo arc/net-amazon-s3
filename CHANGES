@@ -2,6 +2,9 @@ Revision history for Perl module Net::Amazon::S3:
 
 {{$NEXT}}
 
+0.56_01 Tue Feb 25 12:19:00 GMT 2014
+    - Local Cutbot-specific changes
+
 0.56 Sun Dec 18 22:22:32 GMT 2011
     - Spelling error (RT #69817, patch from Fabrizio Regalli)
     - Added use_ok tests (RT #72856, suggested by Gregor Herrmann)
